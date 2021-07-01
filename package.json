@@ -1,0 +1,24 @@
+{
+  "name": "qiankun-demo",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "install": "npm-run-all --serial install:*",
+    "install:main": "cd main-app && npm i",
+    "install:sub-app-jquery": "cd sub-app-jquery && npm i",
+    "install:sub-app-vue2": "cd sub-app-vue2 && npm i",
+    "install:sub-app-vue3":"cd sub-app-vue3 && npm i",
+    "start": "npm-run-all --parallel start:*",
+    "start:sub-app-jquery": "cd sub-app-jquery && npm start",
+    "start:sub-app-vue2": "cd sub-app-vue2 && npm start",
+    "start:sub-app-vue3": "cd sub-app-vue3 && npm start",
+    "start:main": "cd main-app && npm start",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "devDependencies": {
+    "npm-run-all": "^4.1.5"
+  },
+  "author": "gongzhao.li",
+  "license": "ISC"
+}
