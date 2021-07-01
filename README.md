@@ -1,6 +1,6 @@
 # **微前端 qiankuan架构demo**
 
-> 微前端框架qiankuan实战demo,主应用 <font color="#ff6600>**main-app**</font> 基于Vue3，子应用分别为JQuery，Vue2，Vue3。
+> 微前端框架qiankuan实战demo,主应用 **main-app** 基于Vue3，子应用分别为JQuery，Vue2，Vue3。
 
 ## **install**
 
